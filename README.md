@@ -1,11 +1,4 @@
 # App-Compra-Venta
-App para la Asignatura Laboratorio de discpositivos moviles de la URJC
- 
- [APK DOWNLOAD](https://drive.google.com/open?id=1VoCwylB85xRevmN5coeOU77_4tMve3rt)
-   
-   [Memoria pdf](https://drive.google.com/open?id=1mrEkZSJ0KdbGfk1xEDv_-G2tEd8tmS9_)
-[Presentacion](https://drive.google.com/open?id=1SCn5QeUS9j192aQHQbQcwsXJLEPxfnt1CoMlr_Wytao)
- 
 Nuestra aplicacion se basa en una aplicacion de compra y venta sin pago a traves de la app, cuya funcion principal es poner en contacto al comprador y vendedor.
 Consta por tanto de las siguientes funciones:
 
@@ -85,21 +78,3 @@ PrefManager
 Clase que nos permite saber a traves de   SharedPreferences si es la primera vez que se ejecuta la app
 SessionManager  
 Clase necesaria para los datos de sesion, saber si un usuario esta logeado, si ha cerrado sesion o cual es su id, nombre o email  
-### Class
-Articulo  
-User
-
-## Imagenes
- ![Vista de las pantallas de informacion](readmeFiles/WelcomeActivity.jpg)
-![Vista de pantalla login](readmeFiles/Screenshot_1516026501.png)
-![Vista de pantalla login](readmeFiles/add1.jpg)
-![Vista de pantalla login](readmeFiles/menu.jpg)
-![Vista de pantalla login](readmeFiles/menu2.jpg)
-![Vista de pantalla login](readmeFiles/Screenshot_20180115-125708.png)
-![Vista de pantalla login](readmeFiles/Screenshot_20180115-125800.png)
-![Vista de pantalla login](readmeFiles/Screenshot_1516026501.png)
-![Vista de pantalla login](readmeFiles/Screenshot_20180115-130611.png)
-![Vista de pantalla login](readmeFiles/Screenshot_20180115-161333.png)
-![Vista de pantalla login](readmeFiles/Screenshot_20180115-130616.png)
-![Vista de pantalla login](readmeFiles/Screenshot_20180115-163447.png)
-![Vista de pantalla login](readmeFiles/Screenshot_1516011148.png)
