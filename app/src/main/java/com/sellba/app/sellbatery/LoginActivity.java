@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         button_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri path= Uri.parse("https://github.com/Was17/App-Compra-Venta");
+                Uri path= Uri.parse("https://google.com/");
                 Intent intent=new Intent(Intent.ACTION_VIEW,path);
                 startActivity(intent);
             }

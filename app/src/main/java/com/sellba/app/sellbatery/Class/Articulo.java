@@ -1,11 +1,6 @@
 package com.sellba.app.sellbatery.Class;
 
 import java.io.Serializable;
-
-/**
- * Created by was12 on 14/11/2017.
- */
-
 public class Articulo implements Serializable {
     private String id;
     private String nombre;
@@ -43,14 +38,6 @@ public class Articulo implements Serializable {
         this.nombre = nombre;
         this.precio = precio;
         this.descripcion = descripcion;
-    }
-
-    public Articulo(String hola) {
-        this.nombre=hola;
-    }
-    public Articulo(String hola,String photo) {
-        this.nombre=hola;
-        this.imagen=photo;
     }
 
 

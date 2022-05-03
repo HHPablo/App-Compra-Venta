@@ -109,13 +109,13 @@ public class CompraFragment extends Fragment {
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
 
-            final Articulo user= objetos.get(position);
+            Articulo user= objetos.get(position);
             holder.nombre.setText(user.getNombre());
             holder.mCardViewTop.setCardBackgroundColor(Color.GRAY);
             holder.foto.setImageURI(Uri.parse(user.getImagen()));
             holder.precio.setText(user.getPrecio()+" €");
             final String id=user.getId();
-            holder.interesa.setOnClickListener(new View.OnClickListener() {
+            holder.mCardViewTop.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     final String mensaje;
@@ -149,7 +149,7 @@ public class CompraFragment extends Fragment {
                         vende=cursor1.getString(2);
 
 
-                        mensaje="Bienvenido a Compra-Venta URJC "+usuario+".\n"//cursor.getString(1)+". "
+                        mensaje="Bienvenido a SELLBA "+usuario+".\n"//cursor.getString(1)+". "
                                 +"Estos son los datos del articulo que le interesa:\n"
                                 +"Nombre = "+user.getNombre()+".\n"
                                 +"Precio = "+user.getPrecio()+".\n"

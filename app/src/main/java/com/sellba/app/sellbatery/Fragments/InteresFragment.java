@@ -24,10 +24,6 @@ import com.sellba.app.sellbatery.R;
 import com.sellba.app.sellbatery.Utils.SessionManager;
 
 import java.util.ArrayList;
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class InteresFragment extends Fragment {
 
 
@@ -109,7 +105,7 @@ public class InteresFragment extends Fragment {
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
 
-            final Articulo user= objetos.get(position);
+            Articulo user= objetos.get(position);
             holder.nombre.setText(user.getNombre());
             holder.mCardViewTop.setCardBackgroundColor(Color.GRAY);
             holder.foto.setImageURI(Uri.parse(user.getImagen()));
@@ -125,7 +121,7 @@ public class InteresFragment extends Fragment {
 
 
                     String[]to={cursor.getString(2)};
-                    sendEmail(to,null,"Compra-Venta URJC","Hola " +cursor.getString(1)+". Estoy interesado en tu articulo.");
+                    sendEmail(to,null,"Compra/Venta SELLBA","Hola "+cursor.getString(1)+"Soy "+user.getVendedor()+". Estoy interesado en tu articulo " +user.getNombre());
 
                 }
             });

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#FFF</color>
-    <color name="colorPrimaryDark">#910112</color>
+    <color name="colorPrimaryDark">#1ebea9</color>
     <color name="colorAccent">#cb0017</color>
-    <color name="colorURJC">#cb0017</color>
+    <color name="colorURJC">#1ebea9</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorGrey">@android:color/darker_gray</color>
     <color name="colorGrey2">#c14d4c4c</color>
-    <color name="colorBlack">#666565</color>
+    <color name="colorGrey3">#666565</color>
     <color name="bg_screen1">#f64c73</color>
     <color name="bg_screen2">#1ebea9</color>
     <color name="bg_screen3">#3395ff</color>
     <color name="bg_screen4">#c873f4</color>
+    <color name="colorBlack">#000000</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#d1395c</color>

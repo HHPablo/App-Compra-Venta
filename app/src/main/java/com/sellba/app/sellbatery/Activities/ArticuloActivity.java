@@ -40,6 +40,7 @@ public class ArticuloActivity extends AppCompatActivity {
           fab.setClickable(false);
           fab.setVisibility(View.INVISIBLE);
           imagen.setImageURI(Uri.parse(c.getString(4)));
+
       }catch (Exception e){
 
           database.close();
@@ -49,4 +50,5 @@ public class ArticuloActivity extends AppCompatActivity {
 
 
     }
+
 }

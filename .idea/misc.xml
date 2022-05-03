@@ -15,6 +15,7 @@
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1785" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1785" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/drawable/ic_info_24dp.xml" value="0.1785" />
+        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/drawable/ic_logo1_background.xml" value="0.129" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/drawable/ic_money_dark.xml" value="0.1785" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1785" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/drawable/ic_person_24dp.xml" value="0.1785" />
@@ -27,12 +28,12 @@
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_add_articulo.xml" value="0.16438703140830802" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_articulo.xml" value="0.16438703140830802" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_chat.xml" value="0.16438703140830802" />
-        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_main.xml" value="0.16438703140830802" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_menu.xml" value="0.16438703140830802" />
-        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_profile.xml" value="0.16438703140830802" />
+        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_profile.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/activity_welcome.xml" value="0.16438703140830802" />
-        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/card_articulo.xml" value="0.16438703140830802" />
+        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/card_articulo.xml" value="0.22" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/card_articulo2.xml" value="0.16438703140830802" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/card_articulo3.xml" value="0.16438703140830802" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/change_email.xml" value="0.16438703140830802" />
@@ -44,7 +45,7 @@
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/info_slider.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/recycler_view.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/venta_slider.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/welcome_slider.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/layout/welcome_slider.xml" value="0.22" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/menu/menu_articulo.xml" value="0.28888888888888886" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/menu/menu_bar.xml" value="0.28888888888888886" />
         <entry key="..\:/Users/USER/Desktop/App-Compra-Venta/App-Compra-Venta/app/src/main/res/mipmap-anydpi-v26/ic_logo1.xml" value="0.1785" />

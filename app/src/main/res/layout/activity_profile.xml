@@ -108,7 +108,7 @@
                     android:layout_marginTop="16dp"
                     android:background="@drawable/button"
                     android:text="@string/modificar_contraseña"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/colorBlack"
                     android:textStyle="bold" />
 
                 <Button
@@ -119,7 +119,7 @@
                     android:layout_marginTop="16dp"
                     android:background="@drawable/button"
                     android:text="@string/modificar_email"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/colorBlack"
                     android:textStyle="bold" />
 
 
