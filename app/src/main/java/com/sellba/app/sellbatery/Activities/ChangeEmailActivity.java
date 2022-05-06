@@ -17,9 +17,6 @@ import com.sellba.app.sellbatery.Utils.SessionManager;
 
 import java.util.regex.Pattern;
 
-/**
- * Created by David Garcia Herrero on 14/01/2018.
- */
 
 public class ChangeEmailActivity extends AppCompatActivity {
     private Context context;

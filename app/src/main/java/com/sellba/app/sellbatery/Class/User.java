@@ -2,10 +2,6 @@ package com.sellba.app.sellbatery.Class;
 
 import java.io.Serializable;
 
-/**
- * Created by was12 on 14/11/2017.
- */
-
 public class User implements Serializable{
     private int id;
     private String nombre;

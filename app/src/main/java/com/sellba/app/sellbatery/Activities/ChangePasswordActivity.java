@@ -13,10 +13,6 @@ import com.sellba.app.sellbatery.Database.Database;
 import com.sellba.app.sellbatery.R;
 import com.sellba.app.sellbatery.Utils.SessionManager;
 
-/**
- * Created by David Garcia Herrero on 12/01/2018.
- */
-
 public class ChangePasswordActivity extends AppCompatActivity {
     private Context context;
     private SessionManager sessionManager;

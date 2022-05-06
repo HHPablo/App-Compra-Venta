@@ -73,7 +73,6 @@ public class InteresFragment extends Fragment {
         Database database;
         public ContentAdapter(Context context) {
             try {
-
                 database = new Database(context);
                 database.open();
                 Cursor interes = database.getInterestByUser(new SessionManager(context).getid());
@@ -104,7 +103,6 @@ public class InteresFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
-
             Articulo user= objetos.get(position);
             holder.nombre.setText(user.getNombre());
             holder.mCardViewTop.setCardBackgroundColor(Color.GRAY);
@@ -118,10 +116,11 @@ public class InteresFragment extends Fragment {
                     String vendedor=user.getVendedor();
                     database.open();
                     cursor=database.getUser(Integer.parseInt(vendedor));
-
+                   String cursor1;
+                    cursor1= user.getNombre();
 
                     String[]to={cursor.getString(2)};
-                    sendEmail(to,null,"Compra/Venta SELLBA","Hola "+cursor.getString(1)+"Soy "+user.getVendedor()+". Estoy interesado en tu articulo " +user.getNombre());
+                    sendEmail(to,null,"Compra/Venta SELLBA","Hola "+cursor.getString(2)+"/N"+" Soy "+cursor.getString(2) +  " Estoy interesado en tu articulo " +user.getNombre());
 
                 }
             });

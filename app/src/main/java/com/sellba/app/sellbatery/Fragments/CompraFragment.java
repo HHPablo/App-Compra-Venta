@@ -121,8 +121,8 @@ public class CompraFragment extends Fragment {
                     final String mensaje;
                     String vendedor=user.getVendedor();
                     Cursor cursor,cursor1;
-                    final String correo="CompraVentaURJC@gmail.com";
-                    final String contraseña = "compraventaldm18";
+                    final String correo="pablo123@gmail.com";
+                    final String contraseña = "123";
                     SessionManager sessionManager = new SessionManager(v.getContext());
                     Database database=new Database(v.getContext());
                     database.open();
@@ -155,7 +155,7 @@ public class CompraFragment extends Fragment {
                                 +"Precio = "+user.getPrecio()+".\n"
                                 +"Descripcion = "+user.getDescripcion()+".\n"
                                 +"Correo del Vendedor = "+vende+".\n"//cursor1.getString(2)
-                                +"Gracias por confiar en Compra-Venta URJC.";
+                                +"Gracias por confiar en SELLBA";
 
                         StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
                         StrictMode.setThreadPolicy(policy);
